@@ -8,24 +8,52 @@
 
 /* Begin PBXBuildFile section */
 		7A983A7320734BD600B6EA7A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A983A7220734BD600B6EA7A /* AppDelegate.m */; };
-		7A983A7620734BD600B6EA7A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A983A7520734BD600B6EA7A /* ViewController.m */; };
 		7A983A7920734BD600B6EA7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A983A7720734BD600B6EA7A /* Main.storyboard */; };
 		7A983A7B20734BD600B6EA7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A983A7A20734BD600B6EA7A /* Assets.xcassets */; };
 		7A983A7E20734BD600B6EA7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A983A7C20734BD600B6EA7A /* LaunchScreen.storyboard */; };
 		7A983A8120734BD600B6EA7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A983A8020734BD600B6EA7A /* main.m */; };
+		7A983A9420734C8900B6EA7A /* flower08@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A983A8720734C8700B6EA7A /* flower08@2x.png */; };
+		7A983A9520734C8900B6EA7A /* flower07@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A983A8820734C8700B6EA7A /* flower07@2x.png */; };
+		7A983A9620734C8900B6EA7A /* flower03@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A983A8920734C8700B6EA7A /* flower03@2x.png */; };
+		7A983A9720734C8900B6EA7A /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A983A8B20734C8700B6EA7A /* UIView+Extension.m */; };
+		7A983A9820734C8900B6EA7A /* flower06@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A983A8C20734C8800B6EA7A /* flower06@2x.png */; };
+		7A983A9920734C8900B6EA7A /* flower01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A983A8E20734C8800B6EA7A /* flower01@2x.png */; };
+		7A983A9A20734C8900B6EA7A /* flower05@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A983A8F20734C8800B6EA7A /* flower05@2x.png */; };
+		7A983A9B20734C8900B6EA7A /* flower04@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A983A9020734C8800B6EA7A /* flower04@2x.png */; };
+		7A983A9C20734C8900B6EA7A /* flower02@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A983A9120734C8800B6EA7A /* flower02@2x.png */; };
+		7A983A9D20734C8900B6EA7A /* flower09@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A983A9220734C8900B6EA7A /* flower09@2x.png */; };
+		7A983A9E20734C8900B6EA7A /* LuckView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A983A9320734C8900B6EA7A /* LuckView.m */; };
+		7A983AA120734CE400B6EA7A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A983A9F20734CE400B6EA7A /* ViewController.m */; };
+		DEC22550DC65833798228921 /* Pods_LuckView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB8644355090F66803F6CB6E /* Pods_LuckView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0026FB258B6CC14EB413DD17 /* Pods-LuckView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckView.release.xcconfig"; path = "Pods/Target Support Files/Pods-LuckView/Pods-LuckView.release.xcconfig"; sourceTree = "<group>"; };
 		7A983A6E20734BD600B6EA7A /* LuckView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuckView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A983A7120734BD600B6EA7A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7A983A7220734BD600B6EA7A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7A983A7420734BD600B6EA7A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7A983A7520734BD600B6EA7A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7A983A7820734BD600B6EA7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7A983A7A20734BD600B6EA7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A983A7D20734BD600B6EA7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A983A7F20734BD600B6EA7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A983A8020734BD600B6EA7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7A983A8720734C8700B6EA7A /* flower08@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flower08@2x.png"; sourceTree = "<group>"; };
+		7A983A8820734C8700B6EA7A /* flower07@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flower07@2x.png"; sourceTree = "<group>"; };
+		7A983A8920734C8700B6EA7A /* flower03@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flower03@2x.png"; sourceTree = "<group>"; };
+		7A983A8A20734C8700B6EA7A /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		7A983A8B20734C8700B6EA7A /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		7A983A8C20734C8800B6EA7A /* flower06@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flower06@2x.png"; sourceTree = "<group>"; };
+		7A983A8D20734C8800B6EA7A /* LuckView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuckView.h; sourceTree = "<group>"; };
+		7A983A8E20734C8800B6EA7A /* flower01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flower01@2x.png"; sourceTree = "<group>"; };
+		7A983A8F20734C8800B6EA7A /* flower05@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flower05@2x.png"; sourceTree = "<group>"; };
+		7A983A9020734C8800B6EA7A /* flower04@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flower04@2x.png"; sourceTree = "<group>"; };
+		7A983A9120734C8800B6EA7A /* flower02@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flower02@2x.png"; sourceTree = "<group>"; };
+		7A983A9220734C8900B6EA7A /* flower09@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flower09@2x.png"; sourceTree = "<group>"; };
+		7A983A9320734C8900B6EA7A /* LuckView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LuckView.m; sourceTree = "<group>"; };
+		7A983A9F20734CE400B6EA7A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7A983AA020734CE400B6EA7A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DB8644355090F66803F6CB6E /* Pods_LuckView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuckView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F056A41B2C174A367549E047 /* Pods-LuckView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LuckView/Pods-LuckView.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +61,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEC22550DC65833798228921 /* Pods_LuckView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		349A95E289D27F21E92DB191 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB8644355090F66803F6CB6E /* Pods_LuckView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D95F9386B2A4549B2463AF9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F056A41B2C174A367549E047 /* Pods-LuckView.debug.xcconfig */,
+				0026FB258B6CC14EB413DD17 /* Pods-LuckView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7A983A6520734BD600B6EA7A = {
 			isa = PBXGroup;
 			children = (
 				7A983A7020734BD600B6EA7A /* LuckView */,
 				7A983A6F20734BD600B6EA7A /* Products */,
+				5D95F9386B2A4549B2463AF9 /* Pods */,
+				349A95E289D27F21E92DB191 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +108,21 @@
 			children = (
 				7A983A7120734BD600B6EA7A /* AppDelegate.h */,
 				7A983A7220734BD600B6EA7A /* AppDelegate.m */,
-				7A983A7420734BD600B6EA7A /* ViewController.h */,
-				7A983A7520734BD600B6EA7A /* ViewController.m */,
+				7A983A8E20734C8800B6EA7A /* flower01@2x.png */,
+				7A983AA020734CE400B6EA7A /* ViewController.h */,
+				7A983A9F20734CE400B6EA7A /* ViewController.m */,
+				7A983A9120734C8800B6EA7A /* flower02@2x.png */,
+				7A983A8920734C8700B6EA7A /* flower03@2x.png */,
+				7A983A9020734C8800B6EA7A /* flower04@2x.png */,
+				7A983A8F20734C8800B6EA7A /* flower05@2x.png */,
+				7A983A8C20734C8800B6EA7A /* flower06@2x.png */,
+				7A983A8820734C8700B6EA7A /* flower07@2x.png */,
+				7A983A8720734C8700B6EA7A /* flower08@2x.png */,
+				7A983A9220734C8900B6EA7A /* flower09@2x.png */,
+				7A983A8D20734C8800B6EA7A /* LuckView.h */,
+				7A983A9320734C8900B6EA7A /* LuckView.m */,
+				7A983A8A20734C8700B6EA7A /* UIView+Extension.h */,
+				7A983A8B20734C8700B6EA7A /* UIView+Extension.m */,
 				7A983A7720734BD600B6EA7A /* Main.storyboard */,
 				7A983A7A20734BD600B6EA7A /* Assets.xcassets */,
 				7A983A7C20734BD600B6EA7A /* LaunchScreen.storyboard */,
@@ -78,9 +139,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A983A8420734BD600B6EA7A /* Build configuration list for PBXNativeTarget "LuckView" */;
 			buildPhases = (
+				D42E145B7C89CC16A196100A /* [CP] Check Pods Manifest.lock */,
 				7A983A6A20734BD600B6EA7A /* Sources */,
 				7A983A6B20734BD600B6EA7A /* Frameworks */,
 				7A983A6C20734BD600B6EA7A /* Resources */,
+				561A75DAE4DF167605E0D692 /* [CP] Embed Pods Frameworks */,
+				106E83442D88E7C29F0F7D3D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -128,22 +192,87 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A983A9820734C8900B6EA7A /* flower06@2x.png in Resources */,
+				7A983A9B20734C8900B6EA7A /* flower04@2x.png in Resources */,
+				7A983A9520734C8900B6EA7A /* flower07@2x.png in Resources */,
 				7A983A7E20734BD600B6EA7A /* LaunchScreen.storyboard in Resources */,
+				7A983A9620734C8900B6EA7A /* flower03@2x.png in Resources */,
+				7A983A9920734C8900B6EA7A /* flower01@2x.png in Resources */,
+				7A983A9C20734C8900B6EA7A /* flower02@2x.png in Resources */,
 				7A983A7B20734BD600B6EA7A /* Assets.xcassets in Resources */,
+				7A983A9D20734C8900B6EA7A /* flower09@2x.png in Resources */,
 				7A983A7920734BD600B6EA7A /* Main.storyboard in Resources */,
+				7A983A9A20734C8900B6EA7A /* flower05@2x.png in Resources */,
+				7A983A9420734C8900B6EA7A /* flower08@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		106E83442D88E7C29F0F7D3D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LuckView/Pods-LuckView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		561A75DAE4DF167605E0D692 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LuckView/Pods-LuckView-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LuckView/Pods-LuckView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D42E145B7C89CC16A196100A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LuckView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7A983A6A20734BD600B6EA7A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A983A7620734BD600B6EA7A /* ViewController.m in Sources */,
 				7A983A8120734BD600B6EA7A /* main.m in Sources */,
+				7A983A9720734C8900B6EA7A /* UIView+Extension.m in Sources */,
+				7A983A9E20734C8900B6EA7A /* LuckView.m in Sources */,
 				7A983A7320734BD600B6EA7A /* AppDelegate.m in Sources */,
+				7A983AA120734CE400B6EA7A /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,15 +410,13 @@
 		};
 		7A983A8520734BD600B6EA7A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F056A41B2C174A367549E047 /* Pods-LuckView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H4384M9Z5J;
 				INFOPLIST_FILE = LuckView/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.MQ.LuckView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -298,15 +425,13 @@
 		};
 		7A983A8620734BD600B6EA7A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0026FB258B6CC14EB413DD17 /* Pods-LuckView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H4384M9Z5J;
 				INFOPLIST_FILE = LuckView/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.MQ.LuckView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
